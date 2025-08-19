@@ -1,26 +1,30 @@
 export const services = [
   {
-    icon: "💻",
+    id: 1,
     title: "Web Development",
-    description: "Custom websites using React, Next.js, and Node.js with modern best practices and responsive design.",
-    color: "from-blue-500 to-cyan-500"
+    description: "Custom websites using React, Next.js, Node.js with modern design and functionality.",
+    icon: "/images/service-icons/web-dev.svg",
+    features: ["Responsive Design", "SEO Optimized", "Performance Focused"]
   },
   {
-    icon: "🚀",
-    title: "SEO Optimization",
-    description: "Fast-loading, Google-friendly websites optimized for search engines and better user experience.",
-    color: "from-green-500 to-teal-500"
+    id: 2,
+    title: "Frontend Development",
+    description: "Creating interactive and responsive user interfaces with modern technologies.",
+    icon: "/images/service-icons/frontend.svg",
+    features: ["React.js", "Next.js", "Tailwind CSS"]
   },
   {
-    icon: "📱",
-    title: "Responsive Design",
-    description: "Mobile-first approach ensuring your website looks great on all devices and screen sizes.",
-    color: "from-purple-500 to-pink-500"
-  },
-  {
-    icon: "🎨",
+    id: 3,
     title: "UI/UX Design",
-    description: "User-centered design approach using Figma to create intuitive and engaging interfaces.",
-    color: "from-orange-500 to-red-500"
+    description: "Designing user-friendly interfaces with Figma and modern design principles.",
+    icon: "/images/service-icons/ui-ux.svg",
+    features: ["Figma Design", "Prototyping", "User Research"]
+  },
+  {
+    id: 4,
+    title: "SEO Optimization",
+    description: "Fast-loading, Google-friendly websites optimized for search engines.",
+    icon: "/images/service-icons/seo.svg",
+    features: ["Page Speed", "Meta Tags", "Schema Markup"]
   }
 ];
